@@ -13,7 +13,6 @@
         "--socket=wayland",
         "--share=network"
     ],
-
     "modules": [
         {
             "name": "exiv2",
@@ -57,8 +56,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/libkexiv2-21.12.1.tar.xz",
-                    "sha256": "ab30b86ad489faf1feea2949c74844c6d3f4c46219974b924e157bae2012aafb"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkexiv2-21.12.3.tar.xz",
+                    "sha256": "491496b277fb3bebf17b1f2488fc8e905e08f888415edc4dcd26039e53335564"
                 }
             ]
         },
@@ -81,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/marble-21.12.1.tar.xz",
-                    "sha256": "568b6d9ab39683f6a2ca4ea78daaf4ca66db7eb13ca587333f54291e17831c49"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/marble-21.12.3.tar.xz",
+                    "sha256": "442925b9024c0d7d470aa1523b0647c8fdce9ce69a0a2c6b29133d43596ad86c"
                 }
             ],
             "modules": [
