@@ -45,7 +45,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 769,
+                        "stable-only": true,
+                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+                    }
                 }
             ]
         },
@@ -57,7 +63,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkexiv2-21.12.3.tar.xz",
-                    "sha256": "491496b277fb3bebf17b1f2488fc8e905e08f888415edc4dcd26039e53335564"
+                    "sha256": "491496b277fb3bebf17b1f2488fc8e905e08f888415edc4dcd26039e53335564",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkexiv2-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -81,7 +93,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/marble-21.12.3.tar.xz",
-                    "sha256": "442925b9024c0d7d470aa1523b0647c8fdce9ce69a0a2c6b29133d43596ad86c"
+                    "sha256": "442925b9024c0d7d470aa1523b0647c8fdce9ce69a0a2c6b29133d43596ad86c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/marble-$version.tar.xz"
+                    }
                 }
             ],
             "modules": [
@@ -92,7 +110,13 @@
                         {
                             "type": "archive",
                             "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protobuf-cpp-3.19.3.tar.gz",
-                            "sha256": "f0cc6ae9119d4891d72bc72d44ae73308d6e2319e2ce96c10c22d2508c55c922"
+                            "sha256": "f0cc6ae9119d4891d72bc72d44ae73308d6e2319e2ce96c10c22d2508c55c922",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 3715,
+                                "stable-only": true,
+                                "url-template": "https://github.com/protocolbuffers/protobuf/releases/download/v$version/protobuf-cpp-$version.tar.gz"
+                            }
                         }
                     ],
                     "cleanup": [
@@ -112,7 +136,13 @@
                         {
                             "type": "archive",
                             "url": "https://github.com/HewlettPackard/wireless-tools/archive/refs/tags/v29.tar.gz",
-                            "sha256": "69c5face9ac9d3273042436408a9a057d3416a814253dedeaaef210fcbc42d40"
+                            "sha256": "69c5face9ac9d3273042436408a9a057d3416a814253dedeaaef210fcbc42d40",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 5136,
+                                "stable-only": true,
+                                "url-template": "https://github.com/HewlettPackard/wireless-tools/archive/refs/tags/v$version.tar.gz"
+                            }
                         }
                     ],
                     "cleanup": [
@@ -145,7 +175,13 @@
                         {
                             "type": "archive",
                             "url": "https://download.kde.org/stable/frameworks/5.89/krunner-5.89.0.tar.xz",
-                            "sha256": "1db396b1ddd5232122ea0bfdbf96402c10221dca1ab668188f8e3f33c7b09f87"
+                            "sha256": "1db396b1ddd5232122ea0bfdbf96402c10221dca1ab668188f8e3f33c7b09f87",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 8762,
+                                "stable-only": true,
+                                "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/krunner-$version.tar.xz"
+                            }
                         }
                     ]
                 },
@@ -156,7 +192,13 @@
                         {
                             "type": "archive",
                             "url": "http://download.osgeo.org/shapelib/shapelib-1.5.0.tar.gz",
-                            "sha256": "1fc0a480982caef9e7b9423070b47750ba34cd0ba82668f2e638fab1d07adae1"
+                            "sha256": "1fc0a480982caef9e7b9423070b47750ba34cd0ba82668f2e638fab1d07adae1",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 4804,
+                                "stable-only": true,
+                                "url-template": "http://download.osgeo.org/shapelib/shapelib-$version.tar.gz"
+                            }
                         }
                     ]
                 }
@@ -169,7 +211,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kgeotag/1.2.0/kgeotag-1.2.0.tar.xz",
-                    "sha256": "ff99b0a8b1ad1a8a7c127bfe2c86a2d58c7e13b8f89da56ea97286be93624118"
+                    "sha256": "ff99b0a8b1ad1a8a7c127bfe2c86a2d58c7e13b8f89da56ea97286be93624118",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242955,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kgeotag/$version/kgeotag-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
