@@ -109,8 +109,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protobuf-cpp-3.19.3.tar.gz",
-                            "sha256": "f0cc6ae9119d4891d72bc72d44ae73308d6e2319e2ce96c10c22d2508c55c922",
+                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.4/protobuf-cpp-3.19.4.tar.gz",
+                            "sha256": "89ac31a93832e204db6d73b1e80f39f142d5747b290f17340adce5be5b122f94",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 3715,
@@ -174,8 +174,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.89/krunner-5.89.0.tar.xz",
-                            "sha256": "1db396b1ddd5232122ea0bfdbf96402c10221dca1ab668188f8e3f33c7b09f87",
+                            "url": "https://download.kde.org/stable/frameworks/5.92/krunner-5.92.0.tar.xz",
+                            "sha256": "3fc80c5d66359e4593115b58fcd055ca9cab8f23376123094e13c5d4bdc48fed",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
