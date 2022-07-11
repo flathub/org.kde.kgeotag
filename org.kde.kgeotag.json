@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/marble-22.04.2.tar.xz",
-                    "sha256": "a4332e10d26b24ecd07560fa2d877b1f0cce6e50010bbc36ef98e02acc68dfda",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/marble-22.04.3.tar.xz",
+                    "sha256": "438d4ef317231b8f2377f64ebfe9249ce669103fb71105c9d7de35a39bbef771",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -174,8 +174,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.95/krunner-5.95.0.tar.xz",
-                            "sha256": "60d1408a5e32af268e563da31bf0fbdec31ea9f1331a1aae7e6b990814601670",
+                            "url": "https://download.kde.org/stable/frameworks/5.96/krunner-5.96.0.tar.xz",
+                            "sha256": "935efb9ec69d9c99208e6a4b3ff3dcb6f5c773acd332846a4d60d5c461b5a271",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
