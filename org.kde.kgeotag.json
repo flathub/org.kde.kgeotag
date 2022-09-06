@@ -218,10 +218,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kgeotag/$version/kgeotag-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "d739b7813f16bee93c9f06f1cf99cac4287b3a6b.diff"
                 }
             ]
         }
