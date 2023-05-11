@@ -45,13 +45,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
-                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 769,
-                        "stable-only": true,
-                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
-                    }
+                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6"
                 }
             ]
         },
@@ -62,8 +56,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/libkexiv2-23.04.0.tar.xz",
-                    "sha256": "18d3eed06df9d1e31d8434ed9887e305aba176d0856e19a8cd3bdb555b80d391",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/libkexiv2-23.04.1.tar.xz",
+                    "sha256": "3a15410e0eaea3b3b0ca0fa274448d97e8172b5167a82f106c29dff6ba19e275",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -92,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/marble-23.04.0.tar.xz",
-                    "sha256": "195f7d921c16f494e2d1df4073bf45cd97044f207fc2db3181caeb838277ae54",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/marble-23.04.1.tar.xz",
+                    "sha256": "d41e1793e72ac1fd46d39127a70accbcf738c00fe3adbd1159cb32e47f4294d2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
