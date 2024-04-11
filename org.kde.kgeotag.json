@@ -25,8 +25,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r57.tar.gz",
-                    "sha256": "f03f98ca35c3adb56b2358573c8d3eda319ccd5287243d691e724b7eafa970b3",
+                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r58.tar.gz",
+                    "sha256": "e79216260d5dffe809bda840be48ab0eec7737b2bb9f02d2275c1b46344ea7b7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 11600,
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.1.tar.gz",
-                    "sha256": "3078651f995cb6313b1041f07f4dd1bf0e9e4d394d6e2adc6e92ad0b621291fa",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.2.tar.gz",
+                    "sha256": "543bead934135f20f438e0b6d8858c55c5fcb7ff80f5d1d55489965f1aad58b9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/libkexiv2-23.08.4.tar.xz",
-                    "sha256": "a060a1fa36118c496ab0f0afa2efe4a7532c16ce6e4b7b4fa8fc00305688f3f6",
+                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/libkexiv2-24.02.2.tar.xz",
+                    "sha256": "ae60226f489394b239140a4266a2db470a0bcc1a6d77b03c71ae1e3eeff308dc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -114,8 +114,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/marble-23.08.4.tar.xz",
-                    "sha256": "cf2955b8cced2f09923c362346bc5d6b0aa318adda65105fe7c438c7becb7a8f",
+                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/marble-24.02.2.tar.xz",
+                    "sha256": "89d76e02280bf4c921555a383dd9749f91a536f5f83124ed772b6f379f664be5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
