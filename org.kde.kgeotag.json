@@ -6,6 +6,7 @@
     "base": "io.qt.qtwebengine.BaseApp",
     "base-version": "5.15-23.08",
     "command": "kgeotag",
+    "rename-icon": "kgeotag",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -203,6 +204,9 @@
                         "url-template": "https://download.kde.org/stable/kgeotag/$version/kgeotag-$version.tar.xz"
                     }
                 }
+            ],
+            "post-install" : [
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ]
         }
     ]
