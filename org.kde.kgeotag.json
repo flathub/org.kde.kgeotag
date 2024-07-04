@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/libkexiv2-24.05.1.tar.xz",
-                    "sha256": "a366706642e95f78ebba0f14ddf3ba343c854da003de2428f107751a9fa2aa3f",
+                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/libkexiv2-24.05.2.tar.xz",
+                    "sha256": "90595f61e2f4dcb3d8b32cb0a4a1c7f4fc5e3105111add514c99db24f734e313",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -115,8 +115,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/marble-24.05.1.tar.xz",
-                    "sha256": "346fbf9a7c63a7b2d50fe7adde5554ed77f39fb4b59d8f92f42c3adbe9a969dd",
+                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/marble-24.05.2.tar.xz",
+                    "sha256": "80a727bba2f5e88975ddf78b41d969bb0ac93cf6447924db3363ccd2e25a3f82",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -205,7 +205,7 @@
                     }
                 }
             ],
-            "post-install" : [
+            "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ]
         }
