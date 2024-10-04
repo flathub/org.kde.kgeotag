@@ -195,8 +195,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kgeotag/1.5.0/kgeotag-1.5.0.tar.xz",
-                    "sha256": "684864ac61a32ec9c4cc645f89d15e7bce5930e96a7784a40c7eed0db555fa2a",
+                    "url": "https://download.kde.org/stable/kgeotag/1.6.0/kgeotag-1.6.0.tar.xz",
+                    "sha256": "131fec1a99a200858da4371989af1649bd2a9e974beb1c9feef19164aac5afeb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242955,
