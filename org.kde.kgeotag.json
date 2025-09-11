@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkexiv2-25.08.0.tar.xz",
-                    "sha256": "9bb4e5858f35d0dba813ade3c0ff6e7fe750b0930d60a7f4609b48c9563d45eb",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/libkexiv2-25.08.1.tar.xz",
+                    "sha256": "950b39d142bdfdcf34c399ec936fb9930eec4b86223d7ee17c10313597746b8a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -118,8 +118,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/marble-25.08.0.tar.xz",
-                    "sha256": "6f5bf1cebc3311ce2439c4243f90ad249722edf12a96fb927ca60b83e98c7c9a",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/marble-25.08.1.tar.xz",
+                    "sha256": "18cd1c221ce5b916c10d828ce084219c15e2806a376f53f9970fb6682d72f51b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
