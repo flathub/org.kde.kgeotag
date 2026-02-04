@@ -14,6 +14,20 @@
         "--socket=wayland",
         "--share=network"
     ],
+     "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/mkspecs",
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ],
     "modules": [
         {
             "name": "inih",
@@ -112,9 +126,6 @@
                 "-DBUILD_WITH_DBUS=ON",
                 "-DBUILD_TESTING=OFF"
             ],
-            "cleanup": [
-                "/mkspecs"
-            ],
             "sources": [
                 {
                     "type": "archive",
@@ -151,7 +162,6 @@
                         }
                     ],
                     "cleanup": [
-                        "/share/man",
                         "/bin"
                     ]
                 },
