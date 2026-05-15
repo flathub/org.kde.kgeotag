@@ -1,0 +1,32 @@
+From 15ec1e5e607c7d0ec6190d7767f8cec40f19e50a Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Fri, 15 May 2026 16:38:08 +0300
+Subject: [PATCH] Fix ‘bool’ is a keyword with ‘-std=c23’
+
+> libwlocate.h:45:24: note: ‘bool’ is a keyword with ‘-std=c23’ onwards
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ master/libwlocate.h | 6 ------
+ 1 file changed, 6 deletions(-)
+
+diff --git a/master/libwlocate.h b/master/libwlocate.h
+index ab0eb2d..ec689af 100755
+--- a/master/libwlocate.h
++++ b/master/libwlocate.h
+@@ -41,12 +41,6 @@
+  #endif
+ #endif
+ 
+-#ifndef __cplusplus
+- typedef unsigned char bool;
+- #define false 0
+- #define true  1
+-#endif
+-
+ #ifdef ENV_WINDOWS
+  #include <windows.h>
+ #endif
+--
+libgit2 1.7.2
+
